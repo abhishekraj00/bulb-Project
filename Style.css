@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.bulb-container {
+    margin-top: 20px;
+    width: 500px;
+    height: 600px;
+    box-shadow: 4px 4px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#on-off {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.bulb{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 30px;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+
+#text{
+    margin-bottom: 100px;
+}
+
